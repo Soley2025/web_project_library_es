@@ -357,15 +357,15 @@ p {
 }
 
 .footer {
+  display: flex;
   box-sizing: border-box;
-  color: #000000;
-}
+  color: #fff;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
-  color: #000000;
 }
 
 .footer__column_content_hours {
@@ -375,22 +375,20 @@ p {
 
 .footer__column_content_social {
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__logo {
   width: 50px;
   height: 80px;
-  margin-left: 80px;
 }
 
 .footer__column-heading {
-  position: relative;
-  bottom: 20px;
 }
 
 .footer__list {
-  display: flex;
-  flex-direction: column; /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -402,8 +400,6 @@ p {
 .footer__column-link {
   color: white;
   text-decoration: none;
-  position: relative;
-  bottom: 16px;
 }
 
 .footer__social-icon {
