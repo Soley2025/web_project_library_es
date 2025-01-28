@@ -326,7 +326,7 @@ p {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  justify-content: space-evenly;
+  justify-content: center;
   /* Agrega estilos */
 }
 
